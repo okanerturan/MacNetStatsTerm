@@ -1,6 +1,6 @@
 # MacNetStatsTerm
 
-[![CI](https://github.com/okturan/MacNetStatsTerm/actions/workflows/ci.yml/badge.svg)](https://github.com/okturan/MacNetStatsTerm/actions/workflows/ci.yml)
+[![CI](https://github.com/okanerturan/MacNetStatsTerm/actions/workflows/ci.yml/badge.svg)](https://github.com/okanerturan/MacNetStatsTerm/actions/workflows/ci.yml)
 
 A small, interactive macOS terminal dashboard for the active network interface. It reads the system's cumulative byte counters once per second and displays current download and upload throughput without making network requests or leaving output in terminal scrollback.
 
@@ -30,14 +30,14 @@ No package manager or third-party runtime is required. The script is macOS-speci
 ### Install the v1 release
 
 Download the exact reviewed script and its checksum from the
-[v1.0.0 release](https://github.com/okturan/MacNetStatsTerm/releases/tag/v1.0.0):
+[v1.0.0 release](https://github.com/okanerturan/MacNetStatsTerm/releases/tag/v1.0.0):
 
 ```bash
 mkdir -p "$HOME/.local/bin"
 curl --fail --location --remote-name \
-  https://github.com/okturan/MacNetStatsTerm/releases/download/v1.0.0/macnetstats
+  https://github.com/okanerturan/MacNetStatsTerm/releases/download/v1.0.0/macnetstats
 curl --fail --location --remote-name \
-  https://github.com/okturan/MacNetStatsTerm/releases/download/v1.0.0/macnetstats.sha256
+  https://github.com/okanerturan/MacNetStatsTerm/releases/download/v1.0.0/macnetstats.sha256
 shasum -a 256 -c macnetstats.sha256
 install -m 0755 macnetstats "$HOME/.local/bin/macnetstats"
 "$HOME/.local/bin/macnetstats" --version
@@ -50,7 +50,7 @@ independent code-signing identity.
 ### Run from source
 
 ```bash
-git clone https://github.com/okturan/MacNetStatsTerm.git
+git clone https://github.com/okanerturan/MacNetStatsTerm.git
 cd MacNetStatsTerm
 ./netmon.sh
 ```

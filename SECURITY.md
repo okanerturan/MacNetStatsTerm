@@ -7,7 +7,7 @@ Older downloaded scripts and locally modified copies are not patched in place.
 
 ## Reporting a vulnerability
 
-Please use [GitHub's private vulnerability reporting form](https://github.com/okturan/MacNetStatsTerm/security/advisories/new)
+Please use [GitHub's private vulnerability reporting form](https://github.com/okanerturan/MacNetStatsTerm/security/advisories/new)
 instead of opening a public issue. Include the macOS version, shell and terminal,
 the command or environment involved, clear reproduction steps, and the impact.
 
